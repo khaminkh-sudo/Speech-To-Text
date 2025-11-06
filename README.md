@@ -11,3 +11,10 @@
 - `frontend/`: کدهای سمت کاربر
 - `backend/`: کدهای سمت سرور
 - `data/`: داده‌های ویرایش‌شده
+node_modules/
+__pycache__/
+*.pyc
+*.env
+.env
+data/*.json  # اگر نخواهید در گیت قرار گیرد
+models/*.pkl
