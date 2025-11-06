@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>تبدیل گفتار به متن فارسی</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>تبدیل گفتار به متن فارسی</h1>
+    <button id="recordBtn">ضبط صدا</button>
+    <textarea id="output" placeholder="متن تبدیل شده اینجا نمایش داده می‌شود..."></textarea>
+    <button id="saveBtn" style="display:none;">ذخیره ویرایش</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
